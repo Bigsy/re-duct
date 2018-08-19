@@ -1,0 +1,13 @@
+{:duct.core/project-ns  re-duct
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/site {}
+ :duct.module/cljs {:main re-duct.client.core
+                    :source-paths ["src/cljs"]}
+
+ :duct.router/cascading
+ [#ig/ref :re-duct.handler/example]
+
+ :re-duct.handler/example
+ {}}
