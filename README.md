@@ -4,17 +4,6 @@ Vanilla base for full stack clojure cljs duct and re-frame app
 
 ## Developing
 
-### Setup
-
-When you first clone this repository, run:
-
-```sh
-lein duct setup
-```
-
-This will create files for local configuration, and prep your system
-for the project.
-
 ### Environment
 
 To begin developing, start with a REPL.
