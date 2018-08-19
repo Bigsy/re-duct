@@ -1,6 +1,6 @@
 # re-duct
 
-FIXME: description
+Vanilla base for full stack clojure cljs duct and re-frame app
 
 ## Developing
 
